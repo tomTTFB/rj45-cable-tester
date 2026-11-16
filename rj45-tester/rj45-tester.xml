@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/tom/GithubRepos/rj45-tester/rj45-tester/rj45-tester.kicad_sch</source>
+    <date>Mon 16 Nov 2026 14:42:55 GMT</date>
+    <tool>Eeschema 7.0.11+dfsg-1build4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rj45-tester.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <fields>
+        <field name="Part Number">K104M20X7RH53H5</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="K104M20X7RH53H5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83b0bbc8-c7a7-4381-b7fc-cefd1c834bcd</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm</footprint>
+      <fields>
+        <field name="Part Number">K104M20X7RH53H5</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Part Number" value="K104M20X7RH53H5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c530f92a-33ed-4250-aa6f-e49628714df4</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="Part Number">ESC106M063AC3AA</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Part Number" value="ESC106M063AC3AA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf00f8bf-702d-41da-af20-9a6c350842f4</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Part Number">IN-PI55TATPRPGPB</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Part Number" value="IN-PI55TATPRPGPB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2ec9989-69c4-4a6a-8ef6-d511ee07444d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Part Number">IN-PI55TATPRPGPB</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Part Number" value="IN-PI55TATPRPGPB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ecbed1e-9325-4f29-a80f-30806a4b3fbc</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Part Number">IN-PI55TATPRPGPB</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Part Number" value="IN-PI55TATPRPGPB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92a6b9fb-d51f-41d1-b64a-7c4816e47f69</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Part Number">IN-PI55TATPRPGPB</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Part Number" value="IN-PI55TATPRPGPB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3d9a604-519a-4c37-aa53-3567f71f6c3a</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Part Number">IN-PI55TATPRPGPB</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Part Number" value="IN-PI55TATPRPGPB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>032eace2-a785-479c-8c61-8f6a6093127b</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Part Number">IN-PI55TATPRPGPB</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Part Number" value="IN-PI55TATPRPGPB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ea4adcf-2979-4f33-ac9c-2e718c21cf8b</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Part Number">IN-PI55TATPRPGPB</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Part Number" value="IN-PI55TATPRPGPB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2d209d3-ceac-473e-9c7c-e0097ebde6c2</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="Part Number">IN-PI55TATPRPGPB</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Part Number" value="IN-PI55TATPRPGPB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>864e2301-8a1a-4132-9d9b-9c0b3a8ff70d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Part Number">G800LR305018EU </field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Part Number" value="G800LR305018EU "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>620e44c2-4c34-4dff-bca4-07b45ce21614</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>RJ45</value>
+      <footprint>Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal</footprint>
+      <fields>
+        <field name="Part Number">54602-908LF</field>
+      </fields>
+      <libsource lib="Connector" part="RJ45" description="RJ connector, 8P8C (8 positions 8 connected)"/>
+      <property name="Part Number" value="54602-908LF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="RJ connector, 8P8C (8 positions 8 connected)"/>
+      <property name="ki_keywords" value="8P8C RJ socket connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f038fd50-0869-4ae4-a98a-956f90ccd507</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>RJ45</value>
+      <footprint>Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal</footprint>
+      <fields>
+        <field name="Part Number">54602-908LF</field>
+      </fields>
+      <libsource lib="Connector" part="RJ45" description="RJ connector, 8P8C (8 positions 8 connected)"/>
+      <property name="Part Number" value="54602-908LF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="RJ connector, 8P8C (8 positions 8 connected)"/>
+      <property name="ki_keywords" value="8P8C RJ socket connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a175d5c5-6f06-46b1-a6eb-e58113a3f239</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Part Number">G800LR305018EU </field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Part Number" value="G800LR305018EU "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>516144ed-96d6-40b1-bab6-c48cc8ddcd2c</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>USB_C_Receptacle_PowerOnly_6P</value>
+      <footprint>Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="Part Number">USB4125-GF-A</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_PowerOnly_6P" description="USB Power-Only 6P Type-C Receptacle connector"/>
+      <property name="Part Number" value="USB4125-GF-A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="USB Power-Only 6P Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C power-only charging-only 6P 6C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41953ebe-2034-4e1b-ba2d-087b3582cfde</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Part Number">MFR-25FBF52-4K7</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part Number" value="MFR-25FBF52-4K7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc3a2ecb-2b09-4b89-9990-7025ee748525</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Part Number">MFR-25FBF52-4K7</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part Number" value="MFR-25FBF52-4K7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ac80b83-b7e4-4ff8-b449-f57dc7c2e497</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Part Number">MFR-25FBF52-330R</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part Number" value="MFR-25FBF52-330R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdaa323e-e2c4-4e98-9d19-42a217111f31</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5.1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Part Number">MFR-25FBF52-5K1</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part Number" value="MFR-25FBF52-5K1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1228d427-8ef8-49cf-ba7e-020876f18fa2</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>5.1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <fields>
+        <field name="Part Number">MFR-25FBF52-5K1</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Part Number" value="MFR-25FBF52-5K1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>572ead99-a4c6-437f-bd12-0480c7f97335</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <fields>
+        <field name="Part Number">B3W-1002</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Part Number" value="B3W-1002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e94a73fa-8deb-45b8-ab95-9e8a3b0dfb07</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATtiny412-SS</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/40001911A.pdf</datasheet>
+      <fields>
+        <field name="Part Number">ATTINY412-SSN</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny412-SS" description="20MHz, 4kB Flash, 256B SRAM, 128B EEPROM, SOIC-8"/>
+      <property name="Part Number" value="ATTINY412-SSN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="20MHz, 4kB Flash, 256B SRAM, 128B EEPROM, SOIC-8"/>
+      <property name="ki_keywords" value="AVR 8bit Microcontroller tinyAVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83d13835-55ca-4a89-b560-6ec72f56f9a8</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MCP23017_SP</value>
+      <footprint>Package_DIP:DIP-28_W7.62mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</datasheet>
+      <fields>
+        <field name="Part Number">MCP23017-E/SP </field>
+      </fields>
+      <libsource lib="Interface_Expansion" part="MCP23017_SP" description="16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"/>
+      <property name="Part Number" value="MCP23017-E/SP "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rj45-tester.kicad_sch"/>
+      <property name="ki_description" value="16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"/>
+      <property name="ki_keywords" value="I2C parallel port expander"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d9a10da-ce91-4f7b-9e95-3a45a231b1d6</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="RJ45">
+      <description>RJ connector, 8P8C (8 positions 8 connected)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>8P8C*</fp>
+        <fp>RJ31*</fp>
+        <fp>RJ32*</fp>
+        <fp>RJ33*</fp>
+        <fp>RJ34*</fp>
+        <fp>RJ35*</fp>
+        <fp>RJ41*</fp>
+        <fp>RJ45*</fp>
+        <fp>RJ49*</fp>
+        <fp>RJ61*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_PowerOnly_6P">
+      <description>USB Power-Only 6P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_PowerOnly_6P</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="MCP23017_SP">
+      <description>16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23017_SP</field>
+        <field name="Footprint">Package_DIP:DIP-28_W7.62mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB0" type="bidirectional"/>
+        <pin num="2" name="GPB1" type="bidirectional"/>
+        <pin num="3" name="GPB2" type="bidirectional"/>
+        <pin num="4" name="GPB3" type="bidirectional"/>
+        <pin num="5" name="GPB4" type="bidirectional"/>
+        <pin num="6" name="GPB5" type="bidirectional"/>
+        <pin num="7" name="GPB6" type="bidirectional"/>
+        <pin num="8" name="GPB7" type="bidirectional"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="VSS" type="power_in"/>
+        <pin num="11" name="NC" type="no_connect"/>
+        <pin num="12" name="SCK" type="input"/>
+        <pin num="13" name="SDA" type="bidirectional"/>
+        <pin num="14" name="NC" type="no_connect"/>
+        <pin num="15" name="A0" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A2" type="input"/>
+        <pin num="18" name="~{RESET}" type="input"/>
+        <pin num="19" name="INTB" type="tri_state"/>
+        <pin num="20" name="INTA" type="tri_state"/>
+        <pin num="21" name="GPA0" type="bidirectional"/>
+        <pin num="22" name="GPA1" type="bidirectional"/>
+        <pin num="23" name="GPA2" type="bidirectional"/>
+        <pin num="24" name="GPA3" type="bidirectional"/>
+        <pin num="25" name="GPA4" type="bidirectional"/>
+        <pin num="26" name="GPA5" type="bidirectional"/>
+        <pin num="27" name="GPA6" type="bidirectional"/>
+        <pin num="28" name="GPA7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny412-SS">
+      <description>20MHz, 4kB Flash, 256B SRAM, 128B EEPROM, SOIC-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/40001911A.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny412-SS</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/40001911A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="PA6" type="bidirectional"/>
+        <pin num="3" name="PA7" type="bidirectional"/>
+        <pin num="4" name="PA1" type="bidirectional"/>
+        <pin num="5" name="PA2" type="bidirectional"/>
+        <pin num="6" name="~{RESET}/PA0" type="bidirectional"/>
+        <pin num="7" name="PA3" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Interface_Expansion">
+      <uri>/usr/share/kicad/symbols//Interface_Expansion.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>/usr/share/kicad/symbols//LED.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>/usr/share/kicad/symbols//MCU_Microchip_ATtiny.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D4" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D5" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D6" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D7" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D8" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J5" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U2" pin="9" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="/BTN">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/LED_DATA">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/SCL">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PA2" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="5" name="/SDA">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="U2" pin="13" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/TX">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D2" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D3" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D4" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D5" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D6" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D7" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D8" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="15" pinfunction="A0" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="A1" pintype="input"/>
+      <node ref="U2" pin="17" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(D1-DIN)">
+      <node ref="D1" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D1-DOUT)">
+      <node ref="D1" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D2" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(D2-DOUT)">
+      <node ref="D2" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D3" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(D3-DOUT)">
+      <node ref="D3" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D4" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(D4-DOUT)">
+      <node ref="D4" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D5" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(D5-DOUT)">
+      <node ref="D5" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D6" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(D6-DOUT)">
+      <node ref="D6" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D7" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(D7-DOUT)">
+      <node ref="D7" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D8" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="16" name="Net-(J1-Pin_3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="~{RESET}/PA0" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Net-(J5-CC1)">
+      <node ref="J5" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(J5-CC2)">
+      <node ref="J5" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(U2-GPA0)">
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="GPA0" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="Net-(U2-GPA1)">
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="GPA1" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="Net-(U2-GPA2)">
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="GPA2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="Net-(U2-GPA3)">
+      <node ref="J3" pin="4" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="GPA3" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="Net-(U2-GPA4)">
+      <node ref="J3" pin="5" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="GPA4" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="Net-(U2-GPA5)">
+      <node ref="J3" pin="6" pintype="passive"/>
+      <node ref="U2" pin="26" pinfunction="GPA5" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="Net-(U2-GPA6)">
+      <node ref="J3" pin="7" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="GPA6" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="Net-(U2-GPA7)">
+      <node ref="J3" pin="8" pintype="passive"/>
+      <node ref="U2" pin="28" pinfunction="GPA7" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(U2-GPB0)">
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="GPB0" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(U2-GPB1)">
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GPB1" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(U2-GPB2)">
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GPB2" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(U2-GPB3)">
+      <node ref="J2" pin="4" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GPB3" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(U2-GPB4)">
+      <node ref="J2" pin="5" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="GPB4" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="Net-(U2-GPB5)">
+      <node ref="J2" pin="6" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="GPB5" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="Net-(U2-GPB6)">
+      <node ref="J2" pin="7" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GPB6" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="Net-(U2-GPB7)">
+      <node ref="J2" pin="8" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="GPB7" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(D8-DOUT-Pad2)">
+      <node ref="D8" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U2-INTA-Pad20)">
+      <node ref="U2" pin="20" pinfunction="INTA" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U2-INTB-Pad19)">
+      <node ref="U2" pin="19" pinfunction="INTB" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U2-NC-Pad11)">
+      <node ref="U2" pin="11" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U2-NC-Pad14)">
+      <node ref="U2" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
