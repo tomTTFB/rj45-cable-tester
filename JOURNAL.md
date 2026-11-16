@@ -76,3 +76,16 @@
 
 ![3d front](screenshots/3d-front.png)
 ![3d back](screenshots/3d-back.png)
+
+## 16 Nov 2026 - 15:02 to 15:32 (30m)
+- wrote the README
+- checked the OSH Park price again with the final board, still $22.50 for 3
+- asked AI to review all the kicad files and it found that MCP23017 GPA7/GPB7 are output only on newer chips (datasheet rev D), so pin 8 on jack B couldnt be read
+- decided to remove the TEST button and wire J2 pin 8 straight to the ATtiny PA7 instead, U2 pin 8 is now not connected
+- made the button change and checked it
+- removed SW1 from the BOM and updated the README
+- ran ERC and DRC again, both 0 errors
+- next: submit
+
+![osh park final](screenshots/oshpark-final.png)
+![3d front](screenshots/3d-front-final.png)

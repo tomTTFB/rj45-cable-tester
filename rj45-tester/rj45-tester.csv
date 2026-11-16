@@ -8,6 +8,5 @@
 "D1-D8","WS2812B","LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm","https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf","IN-PI55TATPRPGPB","8"
 "J1, J4","Conn_01x03_Pin","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~","G800LR305018EU","2"
 "C3","10uF","Capacitor_THT:CP_Radial_D5.0mm_P2.00mm","~","ESC106M063AC3AA","1"
-"SW1","SW_Push","Button_Switch_THT:SW_PUSH_6mm","~","B3W-1002","1"
 "U1","ATtiny412-SS","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/40001911A.pdf","ATTINY412-SSN","1"
 "J2, J3","RJ45","Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal","~","54602-908LF","2"
