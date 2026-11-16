@@ -45,3 +45,13 @@
 ![placement](screenshots/placement.png)
 ![3d view](screenshots/3d.png)
 ![osh park](screenshots/oshpark.png)
+
+## 15 Nov 2026 - 20:45 to 22:09 (1h 24m)
+- routed the LED data chain from R3 through D1 to D8
+- routed all 16 jack lines from the MCP23017 to both RJ45 jacks on the front layer
+- routed SDA and SCL with the pull ups, LED_DATA, UPDI and the usb-c CC resistors
+- used vias and the back layer for TX and BTN so they didn't weave between the MCP23017 pins
+- checked the net inspector and every signal net is routed, only +5V and GND is left
+- next: route +5V and GND
+
+![routing](screenshots/routing1.png)
