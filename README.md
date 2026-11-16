@@ -10,9 +10,10 @@ A small board that tests ethernet cables. Plug both ends in and 8 LEDs show if e
 ## How It Works
 
 - Plug one end of a cable into A and the other into B
-- Press TEST to start a test
+- Tests run continuously, the LEDs update a few times a second
 - The ATtiny412 drives each wire one at a time through the MCP23017 (I2C expander)
 - It reads which pins come through on the other end
+- J2 pin 8 is read directly by the ATtiny on PA7 because MCP23017 GPA7/GPB7 are output-only on newer chips
 - The 8 LEDs show what each wire is doing
 
 ## LED Key
