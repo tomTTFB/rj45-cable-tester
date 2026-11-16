@@ -56,21 +56,23 @@
 
 ![routing](screenshots/routing1.png)
 
-## 16 nov 11:17 - 14:12 (2h35m) (-20 minutes for a break)
-
+## 16 Nov 2026 - 11:17 to 15:02 (3h 25m, minus 20m break)
 - finished routing the +5V
 - added a GND pour on both layers
 - fixed unconnected stuff from DRC:
   - C1 and U2 pin 10 needed vias to the ground on the back
   - USB-C's two VBUS pads werent joined, linked them on the back layer
   - a bit of front ground got cut off by the UPDI track, added a via
-- DRC said some ground pour was too thin (0.134mm vs 0.1524mm), tried changing the clearance but it got worse so put it back and excluded them since its only ground
+- The DRC said some ground pour was too thin (0.134mm vs 0.1524mm), so I tried changing the clearance but it got worse so put it back and excluded them
 - moved the LED labels off the outlines
 - labelled the UPDI and serial headers (had TX and 5V backwards at first, pin 1 is the square pad)
-- added TEST on the button and A/B for the jacks
-- back of the board: hack club logo, title, my name, version, github link and a key for the LED colours
+- found the header pin labels were on the Fab layer so they wouldnt have printed, moved them to silkscreen
+- added TEST on the button, A/B for the jacks and a NO PoE warning
+- on the back of the board I added a hack club logo, title, my name, version, github link and a key for the LED colours
 - made some text bigger and thicker because it was under osh park's minimum
+- exported the BOM with part numbers, fixed two part numbers that had spaces on the end
 - DRC is 0 errors 0 warnings, board is done
+- next: README, check the OSH Park price again and submit
 
 ![3d front](screenshots/3d-front.png)
 ![3d back](screenshots/3d-back.png)
